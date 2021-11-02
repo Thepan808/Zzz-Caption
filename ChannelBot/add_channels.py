@@ -7,7 +7,7 @@ from ChannelBot.settings import channel_settings
 from pyrogram.types import InlineKeyboardMarkup
 
 
-@Client.on_message((filters.regex(r'^\+ Add Channels \+$') | filters.command('add')) & filters.private)
+@Client.on_message((filters.regex(r'^♦️Adicionar no canal♦️$') | filters.command('add')) & filters.private)
 async def _add_channels(bot: Client, msg):
     user_id = msg.from_user.id
     bot_id = (await bot.get_me()).id
@@ -69,4 +69,4 @@ async def _add_channels(bot: Client, msg):
                     text = '♦️ Encaminhe a mensagem do canal ou /cancel pra cancelar o processo.'
                     channel = await bot.ask(user_id, text, timeout=300, reply_to_message_id=channel.message_id, filters=~filters.me)
     except asyncio.exceptions.TimeoutError:
-        await msg.reply('Process has been automatically cancelled', quote=True)
+        await msg.reply('Processo foi cancelado automaticamente', quote=True)
