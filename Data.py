@@ -10,7 +10,7 @@ class Data:
 
 ♦️ Você acaba-se de se encontrar uma forma de editar? Então você chegou e achou🧐!
 
-By @xPV_D4_M34_S4Y0R1_D3M0N_CR4ZZYx
+By @The_Panda_Ofc
     """
 
     # Home Button
@@ -20,7 +20,7 @@ By @xPV_D4_M34_S4Y0R1_D3M0N_CR4ZZYx
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("♦️ Criador ♦️", url="https://t.me/xPV_D4_M34_S4Y0R1_D3M0N_CR4ZZYx")],
+        [InlineKeyboardButton("♦️ Criador ♦️", url="https://t.me/The_Panda_Ofc")],
         [
             InlineKeyboardButton("♦️ Quer saber como me usar❔ ♦️", callback_data="help"),
             InlineKeyboardButton("♦️ Sobre ♦️", callback_data="about")
@@ -52,11 +52,11 @@ By @xPV_D4_M34_S4Y0R1_D3M0N_CR4ZZYx
 
 ♦️ Bot que legenda  automaticamente nos canais. By: Baianor. 
 
-Baianor : [Criador](https://t.me/xPV_D4_M34_S4Y0R1_D3M0N_CR4ZZYx)
+Baianor : [Criador](https://t.me/The_Panda_Ofc)
 
 Framework : [Pyrogram](docs.pyrogram.org)
 
 Linguagem : [Python](www.python.org)
 
-Desenvolvedor : @xPV_D4_M34_S4Y0R1_D3M0N_CR4ZZYx
+Desenvolvedor : @The_Panda_Ofc
     """
